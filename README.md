@@ -13,6 +13,7 @@
 ## Naming
 ### Packages
 Package names are all __lower-case__, multiple words concatenated together, without hypens or underscores:
+
 __Preferred__:
 
 ```java
