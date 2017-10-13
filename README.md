@@ -1,1 +1,1 @@
-# White Cloak Technologies Java Style Guide
+# WC Java Style Guide
