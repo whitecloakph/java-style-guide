@@ -29,6 +29,7 @@ This style-guide is somewhat of a mash-up between the existing Java language sty
 - [Brace Style](#brace-style)
 - [Switch Statements](#switch-statements)
 - [Annotations](#annotations)
+- [Language](#language)
 
 ## Naming
 
