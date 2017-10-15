@@ -69,15 +69,15 @@ In code, acronyms should be treated as words. For example:
 __Preferred:__
 
 ```java
-XMLHTTPRequest
-String URL
-findPostByID
+XmlHttpRequest
+String url
+findPostById
 ```
 
 __Not Preferred__:
 
 ```java
-XmlHttpRequest
-String url
-findPostById
+XMLHTTPRequest
+String URL
+findPostByID
 ```
