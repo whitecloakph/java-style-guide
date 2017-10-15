@@ -44,6 +44,7 @@ __Preferred__:
 ```java
 com.whitecloak.mypackage
 ```
+
 __Not Preferred__:
 
 ```java
