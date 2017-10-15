@@ -45,7 +45,7 @@ Static fields should be written in __uppercase__, with an underscore separating
 words:
 
 ```java
-public static final int THE_FIELD = 1;
+public static final int MY_FIELD = 1;
 ```
 
 ### Variables & Parameters
