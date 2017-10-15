@@ -1,5 +1,13 @@
 # WC Java Style Guide
 
+## Inspiration
+
+This style-guide is somewhat of a mash-up between the existing Java language style guides. The language guidance is drawn from the following:
+
++ [Android contributors style guide](https://source.android.com/source/code-style.html),
++ [Google Java Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html) and 
++ [The Official raywenderlich.com Java Style Guide](https://github.com/raywenderlich/java-style-guide)
+
 ## Table of Contents
 
 - [Naming](#naming)
