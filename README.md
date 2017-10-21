@@ -162,7 +162,7 @@ __Not Preferred:__
 
 ```java
 for (int i = 0; i < 10; i++) {
-  Log.i(TAG, "index=" + i);
+    Log.i(TAG, "index=" + i);
 }
 ```
 
@@ -213,13 +213,13 @@ __Preferred:__
 
 ```java
 class MyClass {
-  void doSomething() {
-    if (someTest) {
-      // ...
-    } else {
-      // ...
+    void doSomething() {
+        if (someTest) {
+            // ...
+        } else {
+            // ...
+        }
     }
-  }
 }
 ```
 
@@ -228,16 +228,16 @@ __Not Preferred:__
 ```java
 class MyClass
 {
-  void doSomething()
-  {
-    if (someTest)
+    void doSomething()
     {
-      // ...
-    }
-    else
-    {
-      // ...
-    }
+        if (someTest)
+        {
+        // ...
+        }
+        else
+        {
+        // ...
+        }
   }
 }
 ```
@@ -249,7 +249,7 @@ __Preferred:__
 
 ```java
 if (someTest) {
-  doSomething();
+    doSomething();
 }
 if (someTest) { doSomethingElse(); }
 ```
@@ -258,7 +258,7 @@ __Not Preferred:__
 
 ```java
 if (someTest)
-  doSomething();
+    doSomething();
 if (someTest) doSomethingElse();
 ```
 
@@ -273,17 +273,17 @@ __Preferred:__
 
 ```java
 switch (anInput) {
-  case 1:
-    doSomethingForCaseOne();
-    // fall through
-  case 2:
-    doSomethingForCaseOneOrTwo();
-    break;
-  case 3:
-    doSomethingForCaseOneOrThree();
-    break;
-  default:
-    break;
+    case 1:
+        doSomethingForCaseOne();
+        // fall through
+    case 2:
+        doSomethingForCaseOneOrTwo();
+        break;
+    case 3:
+        doSomethingForCaseOneOrThree();
+        break;
+    default:
+        break;
 }
 ```
 
@@ -291,14 +291,14 @@ __Not Preferred:__
 
 ```java
 switch (anInput) {
-  case 1:
-    doSomethingForCaseOne();
-  case 2:
-    doSomethingForCaseOneOrTwo();
-    break;
-  case 3:
-    doSomethingForCaseOneOrThree();
-    break;
+    case 1:
+        doSomethingForCaseOne();
+    case 2:
+        doSomethingForCaseOneOrTwo();
+        break;
+    case 3:
+        doSomethingForCaseOneOrThree();
+        break;
 }
 ```
 
@@ -312,7 +312,7 @@ __Preferred:__
 ```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
-  super.onCreate(savedInstanceState);
+    super.onCreate(savedInstanceState);
 }
 ```
 
@@ -320,7 +320,7 @@ __Not Preferred:__
 
 ```java
 protected void onCreate(Bundle savedInstanceState) {
-  super.onCreate(savedInstanceState);
+    super.onCreate(savedInstanceState);
 }
 ```
 
