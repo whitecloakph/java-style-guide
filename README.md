@@ -324,6 +324,16 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
+## Testing
+
+### Class
+
+Test classes are named starting with the name of the class they are testing, and ending with Test. For example, MyClassTest or MyUtilTest.
+
+### Method
+
+Underscores may appear in JUnit test method names to separate logical components of the name, with each component written in lowerCamelCase. One typical pattern is methodUnderTest_shouldExpectedBehavior_whenStateUnderTest, for example login_shouldShowLoginDialog_whenLoginSuceeds.
+
 ## Language
 
 Use US English spelling.
