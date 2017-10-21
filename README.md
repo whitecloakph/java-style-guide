@@ -29,6 +29,9 @@ This style-guide is somewhat of a mash-up between the existing Java language sty
 - [Brace Style](#brace-style)
 - [Switch Statements](#switch-statements)
 - [Annotations](#annotations)
+- [Testing](#spacing)
+  + [Test Classes](#test-classes)
+  + [Test Methods](#test-methods)
 - [Language](#language)
 
 ## Naming
@@ -139,26 +142,15 @@ private enum CompassDirection { EAST, NORTH, WEST, SOUTH }
 
 ## Spacing
 
-Spacing is especially important in raywenderlich.com code, as code needs to be
-easily readable as part of the tutorial. Java does not lend itself well to this.
-
 ### Indentation
 
 Indentation is using spaces - never tabs.
 
 #### Blocks
 
-Indentation for blocks uses 2 spaces (not the default 4):
+Indentation for blocks uses 4 spaces
 
 __Preferred:__
-
-```java
-for (int i = 0; i < 10; i++) {
-  Log.i(TAG, "index=" + i);
-}
-```
-
-__Not Preferred:__
 
 ```java
 for (int i = 0; i < 10; i++) {
@@ -166,22 +158,30 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
+__Not Preferred:__
+
+```java
+for (int i = 0; i < 10; i++) {
+  Log.i(TAG, "index=" + i);
+}
+```
+
 #### Line Wraps
 
-Indentation for line wraps should use 4 spaces (not the default 8):
+Indentation for line wraps should use 8 spaces.
 
 __Preferred:__
 
 ```java
 CoolUiWidget widget =
-    someIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line);
+        someIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line);
 ```
 
 __Not Preferred:__
 
 ```java
 CoolUiWidget widget =
-        someIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line);
+     omeIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line);
 ```
 
 ### Line Length
@@ -332,7 +332,9 @@ Test classes are named starting with the name of the class they are testing, and
 
 ### Test Methods
 
-Underscores may appear in JUnit test method names to separate logical components of the name, with each component written in __lowerCamelCase__. One typical pattern is __methodUnderTest_shouldExpectedBehavior_whenStateUnderTest__.
+Underscores may appear in JUnit test method names to separate logical components of the name, with each component written in __lowerCamelCase__. 
+
+Test methods should follow the pattern __methodUnderTest_shouldExpectedBehavior_whenStateUnderTest__.
 
 Example:
 
