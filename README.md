@@ -332,7 +332,20 @@ Test classes are named starting with the name of the class they are testing, and
 
 ### Test Methods
 
-Underscores may appear in JUnit test method names to separate logical components of the name, with each component written in __lowerCamelCase__. One typical pattern is __methodUnderTest_shouldExpectedBehavior_whenStateUnderTest__, for example `login_shouldShowLoginDialog_whenLoginSuceeds`.
+Underscores may appear in JUnit test method names to separate logical components of the name, with each component written in __lowerCamelCase__. One typical pattern is __methodUnderTest_shouldExpectedBehavior_whenStateUnderTest__.
+
+Example:
+
+```java
+@Test
+public void method_shouldThrowException_whenAgeLessThan18() { }
+
+@Test
+public void method_shouldFailToWithdrawMoney_forInvalidAccount() { }
+
+@Test
+public void method_shouldFailToAdmit_ifMandatoryFieldsAreMissing() { }
+```
 
 ## Language
 
