@@ -330,6 +330,14 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Test classes are named starting with the name of the class they are testing, and ending with Test. For example, `MyClassTest` or `MyUtilTest`.
 
+Example:
+
+```java
+class MyClassTest {
+
+}
+```
+
 ### Test Methods
 
 Underscores may appear in JUnit test method names to separate logical components of the name, with each component written in __lowerCamelCase__. 
