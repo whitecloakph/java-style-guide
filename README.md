@@ -1,4 +1,4 @@
-# WC Java Style Guide
+# Java Style Guide
 
 ## Inspiration
 
