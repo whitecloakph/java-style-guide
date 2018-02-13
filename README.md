@@ -5,7 +5,7 @@
 This style-guide is somewhat of a mash-up between the existing Java language style guides. The language guidance is drawn from the following:
 
 + [The Official raywenderlich.com Java Style Guide](https://github.com/raywenderlich/java-style-guide)
-+ [Google Java Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
++ [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 ## Table of Contents
 
