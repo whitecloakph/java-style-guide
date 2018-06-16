@@ -251,6 +251,7 @@ __Preferred:__
 if (someTest) {
     doSomething();
 }
+
 if (someTest) { doSomethingElse(); }
 ```
 
@@ -259,6 +260,7 @@ __Not Preferred:__
 ```java
 if (someTest)
     doSomething();
+    
 if (someTest) doSomethingElse();
 ```
 
